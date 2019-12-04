@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!-- DEVELOPER: Stephanie Velez, IS117, Fall 2019 -->
+
+<html>
+  <head>
+   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Sugar & Spice Blog">
+	  <meta name="keywords" content="baking blog, vegan recipes, tips for baking">
+  	<meta name="author" content="Stephanie Velez">
+    <title>Sugar & Spice Blog</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo.png" />
+  </head>
+ 
+<!--NAV MENU-->   
+ <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+        <img src='images/logo.png' style='position:absolute; top:10px; left:65px;' width=55px height=55px alt='logo' /></div>
+
+         <nav><ul>
+          <li><a href="aboutme.html">About</a></li>
+          <li><a href="Final%20Proj.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li class="dropdown">
+            <a href="" class=".dropbtn">Blog</a>
+            <div class="dropdown-content">
+              <a href="recipes.html">Recipes</a>
+              <a href="allergy.html">Allergy Friendly</a>
+            </div>
+          </li>
+        </ul>
+          </nav>
+          </div>
+        </header>
+          
+      <section id="main">
+      <div class="container">
+        <article id="main-col">
+          <h1 class="page-title">About Me</h1>
+          <img src="images/Screen%20Shot%202019-12-04%20at%203.46.57%20PM.png" alt="aboutme" height=150px length=150px align="right" border=2px>
+            <p> I was raised in a modest, tight-knit family in New Jersey, and each evening centered around the dinner menu.  Eager to get involved, I began baking with my aunt at the young age of 4.  She would pull a stool over to the counter, I’d climb up, and help her bake cookies and cakes.  I work at a bakery in Hoboken a couple of hours a week doing admin work and helping with custom macarons, cakes, and cookies.</p>
+            <p>I attend NJIT for Business and Information Systems. My major consists of data analysis, coding, and business. I am building up a technical background, but I hope to work as a higher-up on the management team. I would really like I hope to work in tech one day and still bake on the side. 
+
+            <p>In addition to baking and tech, I enjoy reading, going on hikes, Netflixing, traveling, and being a foodie. 
+
+          </p>
+
+          <div class="contactForm">
+            <h3>Want to reach out?</h3>
+            <div class="forms">
+                  <form action="action_page.php">
+                    <div class="row">
+                      <div class="col-25">
+                        <label for="fname">First Name:</label>
+                      </div>
+                      <div class="col-75">
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-25">
+                        <label for="lname">Last Name:</label>
+                      </div>
+                      <div class="col-75">
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-25">
+                        <label for="country">Country</label>
+                      </div>
+                      <div class="col-75">
+                        <select id="country" name="country">
+                          <option value="australia">Australia</option>
+                          <option value="canada">Canada</option>
+                          <option value="usa">USA</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-25">
+                        <label for="subject">Subject</label>
+                      </div>
+                      <div class="col-75">
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <input type="submit" value="Submit">
+                    </div>
+                  </form>
+                </div>
+            </div>
+     </section></body>
+
+     <section id="newsletter">
+      <div class="container">
+        <h1>Subscribe To Our Newsletter</h1>
+        <form>
+          <input type="email" placeholder="What's your email? ">
+          <button type="submit" class="button_1">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+
+  <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+    <div class="container text-center">
+      <small>Copyright &copy; S+S</small>
+    </div>
+  </footer>
+</html>
