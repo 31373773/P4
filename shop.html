@@ -14,28 +14,40 @@
     <link rel="shortcut icon" type="image/x-icon" href="images/logo.png" />
   </head>
  
-<!--NAV MENU-->   
- <body>
-    <header>
-      <div class="container">
-        <div id="branding">
-            <img src='images/logo.png' style='position:absolute; top:10px; left:65px;' width=55px height=55px alt='logo' />
-        </div>
-         <nav><ul>
-          <li><a href="aboutme.html">About</a></li>
-          <li><a href="Final%20Proj.html">Home</a></li>
-          <li><a href="shop.html">Shop</a></li>
-          <li class="dropdown">
-            <a href="" class=".dropbtn">Blog</a>
-            <div class="dropdown-content">
-              <a href="recipes.html">Recipes</a>
-              <a href="allergy.html">Allergy Friendly</a>
-            </div>
-          </li>
-        </ul>
-          </nav>
+<!--NAV MENU-->
+  <!--NAV MENU-->
+  <body>
+  <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="Final%20Proj.html">S + S Blog</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                  <li class="nav-item active">
+                      <a class="nav-link" href="Final%20Proj.html">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="aboutme.html">About me</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="shop.html">Shop + Gallery</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Blog
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <a class="dropdown-item" href="recipes.html">Recipes of the Week</a>
+                          <a class="dropdown-item" href="allergy.html">Allergy-friendly Recipes</a>
+                      </div>
+                  </li>
+              </ul>
           </div>
-     </header>
+      </nav>
+  </header>
+  </header>
      
      
         <section id="main">
@@ -48,41 +60,63 @@
         <div class="image-gallery">
 
           <!-- Grid Image Gallery -->
-               
-         <div class="gallery">
-              <img src="images/evileye.JPG"><div class="desc">Evil Eye</div>
-          </div>
-        <div class="gallery">
-              <img src="images/unicorncookies.JPG"><div class="desc">Uni Cookies</div>
-          </div>
-    
-         <div class="gallery">
-              <img src="images/mermaidcookies.JPG"><div class="desc">Mermaid Party</div>
-          </div>
-        <div class="gallery">
-              <img src="images/fallcookies.JPG"><div class="desc">PSL</div>
-          </div>
-            <div class="gallery">
-              <img src="images/cbpops.jpg"><div class="desc">Cowboy Cakepops</div>
-          </div>
-        
-         <div class="gallery">
-              <img src="images/boho.jpeg"><div class="desc">Bohemian Vibes</div>
-          </div> 
-                     <div class="gallery">
-              <img src="images/fcpops.jpeg"><div class="desc">Holy Cakepops</div>
-          </div> 
-                       <div class="gallery">
-              <img src="images/unicornmac.PNG"><div class="desc">Uni Macarons</div>
-        
-         
-            </div></div></div>
-     </section></body>
 
-       
-     
 
-     <section id="newsletter">
+            <div class="content">
+                <img src="images/mermaidcookies.JPG" alt="Mermaid Party" style="width:100%">
+                <h3>Mermaid Party</h3>
+            </div>
+        </div>
+
+              <div class="content">
+                  <img src="images/fallcookies.JPG" alt="PSL" style="width:100%">
+                  <h3>PSL</h3>
+              </div>
+          </div>
+
+            <div class="content">
+                <img src="images/cbpops.jpg" alt="Cowboy Cakepops" style="width:100%">
+                <h3>Cowboy Cakepops</h3>
+            </div>
+            </div>
+
+            <div class="content">
+                <img src="images/boho.jpeg" alt="Bohemian Vibes" style="width:100%">
+                <h3>Bohemian Vibe</h3>
+            </div>
+            </div>
+
+            <div class="content">
+                <img src="images/fcpops.jpeg" alt="Holy Cakepops" style="width:100%">
+                <h3>Holy Cakepops</h3>
+            </div>
+            </div>
+
+            <div class="content">
+                <img src="images/unicornmac.PNG" alt="Uni macarons" style="width:100%">
+                <h3>Uni macarons</h3>
+            </div>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <div class="content">
+                        <img src="images/evileye.JPG" alt="Evil Eye" style="width:100%">
+                        <h3>Evil Eye</h3>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="content">
+                        <img src="images/unicorncookies.JPG" alt="Unicorn Cookies" style="width:100%">
+                        <h3>Unicorn Cookies</h3>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <section id="newsletter">
       <div class="container">
         <h1>Subscribe To Our Newsletter</h1>
         <form>
@@ -92,9 +126,26 @@
       </div>
     </section>
 
-  <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
-    <div class="container text-center">
-      <small>Copyright &copy; S+S</small>
-    </div>
+  <footer class="footer page-footer font-small ">
+      <div class="container">
+          <div class="row">
+              <span class="text-muted">&copy; Stephanie Velez | S+S |  Terms Of Use  |  Privacy Statement</span>            </div>        </div>    </footer>>
+  </div>
   </footer>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+  <!-- jQuery library -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+          integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+          crossorigin="anonymous"></script>
+  <!-- Popper -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+          integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+          crossorigin="anonymous"></script>
+  <!-- Latest compiled and minified Bootstrap JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+          integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+          crossorigin="anonymous"></script>
 </html>
+
